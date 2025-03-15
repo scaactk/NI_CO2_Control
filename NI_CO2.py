@@ -17,7 +17,7 @@ ser = serial.Serial(
 CO2_THRESHOLD = 10000  # 10% = 10000 ppm
 
 # NI device output configuration
-VALVE_CONTROL_CHANNEL = "Dev1/ao1"  # NI device AO0 channel, depends on which channel you are going to use
+VALVE_CONTROL_CHANNEL = "Dev1/ao1"  # NI device a00/a01 channel, depends on which channel you are going to use
 VALVE_ON_VOLTAGE = 5.0  # Output voltage when valve is open
 VALVE_OFF_VOLTAGE = 0.0  # Output voltage when valve is closed
 
